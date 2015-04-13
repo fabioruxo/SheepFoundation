@@ -41,7 +41,7 @@ static const short _base64DecodingTable[256] = {
 	char * strResult;
     
 	// Get the Raw Data length and ensure we actually have data
-	int intLength = [objData length];
+	int intLength = (int)[objData length];
 	if (intLength == 0) return nil;
     
 	// Setup the String-based Result placeholder and pointer within that placeholder
@@ -84,7 +84,7 @@ static const short _base64DecodingTable[256] = {
 + (NSData *)decodeBase64WithString:(NSString *)strBase64 
 {
 	const char * objPointer = [strBase64 cStringUsingEncoding:NSASCIIStringEncoding];
-	int intLength = strlen(objPointer);
+	int intLength = (int)strlen(objPointer);
 	int intCurrent;
 	int i = 0, j = 0, k;
     

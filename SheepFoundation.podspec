@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SheepFoundation"
-  s.version          = "0.2.2"
+  s.version          = "0.2.3"
   s.summary          = "SheepFoundation adds functionality to some foundation classes"
 
   s.homepage         = "https://github.com/objectivesheep/SheepFoundation"
