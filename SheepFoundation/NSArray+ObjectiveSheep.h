@@ -16,7 +16,6 @@
 - (NSArray *) arrayBySortingStrings;
 - (NSString *) stringValue;
 - (NSString *) stringValueWithSeparator:(NSString*) str;
-- (id) firstObject;
 - (NSArray *) uniqueMembers;
 - (NSArray *) unionWithArray: (NSArray *) anArray;
 - (NSArray *) intersectionWithArray: (NSArray *) anArray;
